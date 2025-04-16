@@ -1,0 +1,11 @@
+{
+	"id": "ipa-palette",
+	"name": "IPA Palette",
+	"version": "1.0.1",
+	"minAppVersion": "0.15.0",
+	"description": "A plugin for selecting IPA characters via a right sidebar picker.",
+	"author": "Avery Louis",
+	"authorUrl": "https://github.com/francisco-the-man",
+	"fundingUrl": "https://buymeacoffee.com/francisco.the.man",
+	"isDesktopOnly": false
+}

@@ -1,0 +1,60 @@
+/* IPA Palette Styles */
+.ipa-section {
+  margin-bottom: 20px;
+}
+
+.ipa-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(30px, 1fr));
+  gap: 5px;
+  margin-top: 10px;
+}
+
+.ipa-char-button {
+  font-size: 16px;
+  padding: 5px;
+  min-height: 30px;
+  background-color: var(--background-secondary);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.ipa-char-button:hover {
+  background-color: var(--background-modifier-hover);
+}
+
+.ipa-char-button:active {
+  background-color: var(--background-modifier-active);
+}
+
+/* Settings styles for category ordering */
+.ipa-order-list {
+  margin-top: 10px;
+}
+
+.ipa-order-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 12px;
+  margin-bottom: 8px;
+  background-color: var(--background-secondary);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 4px;
+  cursor: move;
+}
+
+.ipa-drag-handle {
+  cursor: grab;
+  color: var(--text-muted);
+}
+
+.ipa-dragging {
+  opacity: 0.5;
+}
+
+.ipa-drag-over {
+  border: 2px dashed var(--interactive-accent);
+}
